@@ -2,6 +2,10 @@
 
 exports[`renders search to dom renders Search 1`] = `
 <DocumentFragment>
-  render to screen Dvf
+  <h1
+    class="input"
+  >
+    The Moon
+  </h1>
 </DocumentFragment>
 `;

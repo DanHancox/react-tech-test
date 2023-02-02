@@ -13,7 +13,11 @@ exports[`App renders App 1`] = `
       class="nasa-logo"
       src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
     />
-    render to screen Dvf
+    <h1
+      class="input"
+    >
+      The Moon
+    </h1>
   </div>
 </DocumentFragment>
 `;
