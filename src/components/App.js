@@ -5,7 +5,7 @@ import Search from "./Search";
 function App() {
   return (
     <div className="App">
-      <h1>React Test</h1>
+      <h1 className="title">React Test</h1>
       <img
         className="nasa-logo"
         src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"

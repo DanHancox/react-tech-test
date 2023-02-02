@@ -1,12 +1,21 @@
-// import { useState } from 'react';
-import "../styles/search.css";
-
+import { useState } from "react";
 import React from "react";
-
+import "../styles/search.css";
 const Search = () => {
+  const [value, setValue] = useState();
+
   return (
     <>
-      <h1 className="input">The Moon</h1>
+      <form className="search-form">
+        <input
+          className="search-input"
+          type="text"
+          onChange={(e) => setValue(e.target.value)}
+        />
+        <button className="search-btn" type="submit">
+          Search
+        </button>
+      </form>
     </>
   );
 };
