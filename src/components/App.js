@@ -1,20 +1,20 @@
-import React,{ useState} from "react";
+import React, { useState } from "react";
 import "../styles/app.css";
 import Search from "./Search";
+import SearchResults from "./SearchResults";
 
 function App() {
   const [searchResults, setSearchResults] = useState();
 
-
   return (
     <div className="App">
-      <h1 className="title">React Test</h1>
       <img
         className="nasa-logo"
         src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
         alt="nasaLogo"
       />
-      <Search setSearchResults={setSearchResults}/>
+      <Search setSearchResults={setSearchResults} />
+      <SearchResults />
     </div>
   );
 }

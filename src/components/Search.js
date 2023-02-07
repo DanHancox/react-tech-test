@@ -3,7 +3,7 @@ import React from "react";
 import "../styles/search.css";
 import getImages from "../requests/getImages";
 
-const Search = ({setSearchResults}) => {
+const Search = ({ setSearchResults }) => {
   const [value, setValue] = useState();
 
   const handleSubmit = (event) => {
