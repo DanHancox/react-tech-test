@@ -1,7 +1,10 @@
 import React from "react";
 import "../styles/search-results.css";
 
-function SearchResults() {
+function SearchResults({ results }) {
+  if (!results.length) {
+    return <p>No Results</p>;
+  } else {
   return (
     <>
       <p>Search Results</p>
@@ -12,6 +15,7 @@ function SearchResults() {
       />
     </>
   );
+  };
 }
 
 export default SearchResults;
