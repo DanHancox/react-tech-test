@@ -5,19 +5,32 @@ exports[`App renders App 1`] = `
   <div
     class="App"
   >
-    <h1>
-      React Test
-    </h1>
     <img
       alt="nasaLogo"
       class="nasa-logo"
       src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
     />
-    <h1
-      class="input"
+    <div
+      class="search"
     >
-      The Moon
-    </h1>
+      <form
+        class="search-form"
+      >
+        <input
+          class="search-input"
+          type="text"
+        />
+        <button
+          class="search-btn"
+          type="submit"
+        >
+          Go!
+        </button>
+      </form>
+    </div>
+    <p>
+      Search Results
+    </p>
   </div>
 </DocumentFragment>
 `;

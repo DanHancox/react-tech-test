@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders search to dom renders Search 1`] = `
+<DocumentFragment>
+  <p>
+    Search Results
+  </p>
+</DocumentFragment>
+`;
